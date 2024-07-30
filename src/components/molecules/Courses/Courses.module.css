@@ -1,0 +1,162 @@
+.courses {
+  padding: 70px 0px;
+  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+
+  @media screen and (max-width: 833px) {
+    padding: 63px 0;
+  }
+}
+
+.courses-main > p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 72px;
+  color: #fff;
+  font-family: Raleway;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    font-family: Raleway;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  @media screen and (max-width: 833px) {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+.container {
+  display: flex;
+  gap: 72px;
+  justify-content: space-between;
+  margin: 56px;
+  justify-content: center;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (max-width: 833px) {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+.left-container {
+  padding: 0 32px;
+  border-radius: 24px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    width: 632px;
+    height: 418px;
+  }
+
+  @media screen and (max-width: 833px) {
+    width: 413px;
+    height: 360px;
+    padding: 0;
+  }
+}
+
+.left-container > div {
+  display: flex;
+  gap: 16px;
+}
+
+.toy {
+  width: 462px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 24px;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    width: 568px;
+    height: 260px;
+    display: flex;
+  }
+
+  @media screen and (max-width: 833px) {
+    width: 349px;
+    height: 240px;
+  }
+}
+.toy-text {
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 45px;
+  color: #023047;
+  padding: 30px, 32px;
+
+  @media screen and (max-width: 833px) {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 36px;
+  }
+}
+
+.hrs {
+  color: #023047;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: Raleway;
+  margin-top: 33px;
+
+  @media screen and (max-width: 833px) {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+  }
+}
+.toy-border {
+  width: 462px;
+  height: 8px;
+  border-radius: 24px;
+  background-color: #023047;
+
+  @media screen and (max-width: 833px) {
+    width: 349px;
+    height: 8px;
+  }
+}
+
+.all-courses {
+  background: #da722c;
+  padding: 16px 32px;
+  border-radius: 24px;
+  width: fit-content;
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+  color: #fff;
+  float: right;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    margin-right: 118px;
+  }
+  @media screen and (max-width: 833px) {
+    margin-right: 88px;
+    padding: 12px, 32px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 156px;
+    height: 56px;
+  }
+}

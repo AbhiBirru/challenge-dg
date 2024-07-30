@@ -1,0 +1,143 @@
+.wrapper {
+  padding: 100px 0;
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    padding: 100px;
+  }
+
+  @media screen and (max-width: 833px) {
+    padding: 100px 32px;
+  }
+}
+
+.testimonials-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 102px;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+  @media screen and (max-width: 833px) {
+    flex-direction: column-reverse;
+    gap: 12px;
+  }
+}
+
+.testimonials-main > img {
+  width: 474px;
+  height: 426px;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    width: 634px;
+    height: 500px;
+    margin: 0 -100px;
+  }
+  @media screen and (max-width: 833px) {
+    width: 350px;
+    height: 276px;
+  }
+}
+
+.testimonials-main--content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.testimonials-main--content > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.testimonials-main--content > div > p {
+  font-family: Raleway;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 72px;
+  text-align: left;
+  color: #023047;
+
+  @media screen and (max-width: 833px) {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+.testimonials-main--content > div > span {
+  color: #023047;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+
+  @media screen and (max-width: 833px) {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+  }
+}
+
+.testimonials-a {
+  background: #da722c;
+  padding: 16px 32px;
+  border-radius: 24px;
+  width: fit-content;
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+
+  color: #fff;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.testimonials-a-tab {
+  display: none;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    display: block;
+    background: #da722c;
+    padding: 12px 32px;
+    border-radius: 24px;
+    width: fit-content;
+    float: right;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 24px;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 833px) {
+    display: block;
+    background: #da722c;
+    padding: 12px 32px;
+    border-radius: 24px;
+    width: fit-content;
+    float: right;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+
+    color: #fff;
+  }
+}

@@ -1,0 +1,93 @@
+.store-card {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+
+  @media screen and (max-width: 833px) {
+    padding: 100px 32px;
+    gap: 17px;
+  }
+}
+
+.store-text {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 72px;
+  display: flex;
+  justify-content: center;
+  color: #023047;
+  margin-bottom: 13px;
+  font-family: Raleway;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  @media screen and (max-width: 833px) {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 10px;
+  }
+}
+.store-para {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  gap: 45px;
+  color: #023047;
+
+  @media screen and (max-width: 833px) {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+}
+
+.card-app {
+  width: 310px;
+  height: 100px;
+  padding: 20px 31px;
+  color: white;
+  background-color: black;
+
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    gap: 14px;
+  }
+
+  @media screen and (max-width: 833px) {
+    padding: 12px 31px;
+    height: auto;
+  }
+}
+
+.card-app img {
+  width: 60px;
+  height: 60px;
+}
+
+.store-sources {
+  display: flex;
+  gap: 30px;
+
+  @media screen and (max-width: 833px) {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+}

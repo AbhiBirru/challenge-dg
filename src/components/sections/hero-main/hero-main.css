@@ -1,0 +1,200 @@
+.hero {
+  display: flex;
+  gap: 16px;
+
+  @media screen and (max-width: 1199px) {
+    flex-direction: column;
+  }
+}
+
+.hero-content {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  max-width: 457px;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    padding: 0 100px;
+    max-width: 100% !important;
+  }
+
+  @media screen and (max-width: 833px) {
+    padding: 0 32px;
+  }
+}
+
+.hero-content > h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 62px;
+  font-family: Raleway;
+}
+
+.hero-content > p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: poppins;
+}
+
+.hero-content > a {
+  display: flex;
+  gap: 10px;
+  background: #da722c;
+  border-radius: 24px;
+  padding: 16px 32px;
+  width: fit-content;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  align-items: center;
+  text-decoration: none;
+  margin: 0;
+  font-family: poppins;
+
+  @media screen and (max-width: 833px) {
+    padding: 12px 32px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.hero-visuals {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero-visuals--img {
+  width: 446px !important;
+  height: 582px !important;
+  float: right;
+  overflow-x: hidden;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    width: 496px !important;
+    height: 647px !important;
+  }
+
+  @media screen and (max-width: 833px) {
+    width: 306px !important;
+    height: 399px !important;
+    /* margin-right: -74px; */
+  }
+}
+
+.hero-visuals--desc-card-1 {
+  background: #fff;
+  width: fit-content;
+  padding: 7px 34px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 24px;
+  border-right: 7px;
+  border-bottom: 7px;
+  border-top: 0;
+  border-left: 0;
+  border-color: linear-gradient(180deg, #6f7dfb 0%, #3b448f 100%);
+  border-style: solid;
+
+  position: absolute;
+  left: 34px;
+  top: 137px;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    left: auto;
+    right: 503px;
+  }
+
+  @media screen and (max-width: 833px) {
+    left: auto;
+    right: 193px;
+  }
+}
+
+.hero-visuals--desc-card-1 > p {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+
+  @media screen and (max-width: 833px) {
+    font-size: 30px;
+    line-height: 37.5px;
+  }
+}
+
+.hero-visuals--desc-card-2 {
+  background: #fff;
+  width: fit-content;
+  padding: 7px 34px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 24px;
+  border-right: 7px;
+  border-bottom: 7px;
+  border-top: 0;
+  border-left: 0;
+  border-color: linear-gradient(180deg, #6f7dfb 0%, #3b448f 100%);
+  border-style: solid;
+  position: absolute;
+  bottom: 108px;
+
+  @media screen and (min-width: 834px) and (max-width: 1199px) {
+    bottom: 117px;
+    right: 527px;
+  }
+
+  @media screen and (max-width: 833px) {
+    right: 213px;
+    bottom: 62px;
+    padding: 7px 34px 13px;
+  }
+}
+
+.hero-visuals--desc-card-2 > p {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  @media screen and (max-width: 833px) {
+    font-size: 30px;
+    line-height: 37.5px;
+  }
+}
+
+.hero-visuals--desc-card-2 > p > span {
+  width: 32.81px;
+  height: 31.72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-visuals--desc-card-2 > span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+
+  @media screen and (max-width: 833px) {
+    font-size: 14px;
+    line-height: 17.5px;
+  }
+}
