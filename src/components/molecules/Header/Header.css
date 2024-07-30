@@ -27,7 +27,7 @@
   font-family: Raleway;
 }
 
-.header > div {
+.header-list {
   display: flex;
   gap: 60px;
   align-items: center;
@@ -43,10 +43,13 @@
 }
 
 .hamburger {
-  display: block;
-  min-width: 40px;
-  min-height: 40px;
-  cursor: pointer;
+  display: none;
+  @media screen and (max-width: 833px) {
+    display: block;
+    min-width: 40px;
+    min-height: 40px;
+    cursor: pointer;
+  }
 }
 
 .header > div > p {
@@ -71,4 +74,46 @@
     padding: 12px 32px;
     font-size: 16px;
   }
+}
+
+.hamburger-menu {
+  height: 100vh;
+  width: 100vw;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  background: #070917;
+  padding: 60px 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-icon {
+  display: flex;
+  justify-content: end;
+}
+
+.options {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  color: #fff;
+}
+
+.options > a {
+  color: #fff;
+  background: #da722c;
+  padding: 12px 32px 12px 32px;
+  border-radius: 24px;
+}
+
+.options > p {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
 }

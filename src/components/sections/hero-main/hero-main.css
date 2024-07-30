@@ -83,7 +83,7 @@
   @media screen and (max-width: 833px) {
     width: 306px !important;
     height: 399px !important;
-    /* margin-right: -74px; */
+    margin-right: -74px;
   }
 }
 
